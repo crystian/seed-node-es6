@@ -10,7 +10,6 @@ module.exports = {
 	},
 	'env': {
 		'es6': true,
-		'browser': true,
 		'jest/globals': true
 	},
 	'rules': {
@@ -42,7 +41,9 @@ module.exports = {
 			}
 		]
 	},
-	'globals': {},
+	'globals': {
+		'console': true
+	},
 	'parser': 'babel-eslint',
 	'plugins': [
 		'jest'
