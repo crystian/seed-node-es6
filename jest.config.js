@@ -2,7 +2,7 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
-	displayName: 'SEED-ES6',
+	displayName: 'SEED-NODE-ES6',
 	// All imported modules in your tests should be mocked automatically
 	// automock: false,
 
